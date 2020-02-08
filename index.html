@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>USAA Front-end Assessment Test</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">  
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+			<a>
+				<button class="button logo ">LOGO</button>
+			</a>
+            <a>FAQ</a>
+            <a>Generic Schedule</a>
+            <a>Generic Text</a>
+        </nav>
+
+        <p class="textCenter" id="header-text">
+            Text <strong>Everyday, Everything, Everywhere</strong> <br />
+            and your generic text <strong>fully-funded Text</strong>
+        </p>
+
+        <div class="inputCenter">
+            <form>
+            <input class="input" type="email" name="email" placeholder="Email address" />
+
+            <select class="input" id="arrow">
+                <option selected disabled>Select your District</option>
+                <option value="1">District 1</option>
+                <option value="2">District 2</option>
+                <option value="3">District 3</option>
+                <option value="4">District 4</option>
+                <option value="5">District 5</option>
+                <option value="6">District 6</option>
+                <option value="7">District 7</option>
+                <option value="8">District 8</option>
+                <option value="9">District 9</option>
+                <option value="10">District 10</option>
+            </select>
+    
+            <button type="button" class="input button" >GO</button>
+            </form>
+        </div>
+        
+        <p class="textCenter">
+            <input type="checkbox" name="info" class="checkmark" checked>
+            <strong>I'd like to receive Generic Text about this program</strong>
+        </p>
+    </header>
+
+    <div class="row">
+        <div class="column textCenter" id="col1">
+            There are currently <br />
+            <span id="count"></span> <br />
+            Pledges from the 10 <br />
+            Districts of City, ST.
+        </div>
+
+        <div class="column" id="col2">
+            <img class="img" src="./assets/recycle-circle.png">
+        </div>
+
+        <div class="column" id="col3">
+            <span id="board">LEADERBOARD</span> <br />
+
+            <div class="pledges" id="pt">
+                <span class="pledge district">District 1</span>
+                <span class="pledge pledgeBar" id="bar1">|</span>
+                <span class="pledge dist" id="dist1" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 2</span>
+                <span class="pledge pledgeBar" id="bar2">|</span>
+                <span class="pledge dist" id="dist2" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 3</span>
+                <span class="pledge pledgeBar" id="bar3">|</span>
+                <span class="pledge dist" id="dist3" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 4</span>
+                <span class="pledge pledgeBar" id="bar4">|</span>
+                <span class="pledge dist" id="dist4" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 5</span>
+                <span class="pledge pledgeBar" id="bar5">|</span>
+                <span class="pledge dist" id="dist5" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 6</span>
+                <span class="pledge pledgeBar" id="bar6">|</span>
+                <span class="pledge dist" id="dist6" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 7</span>
+                <span class="pledge pledgeBar" id="bar7">|</span>
+                <span class="pledge dist" id="dist7" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 8</span>
+                <span class="pledge pledgeBar" id="bar8">|</span>
+                <span class="pledge dist" id="dist8" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 9</span>
+                <span class="pledge pledgeBar" id="bar9">|</span>
+                <span class="pledge dist" id="dist9" /></span>
+            </div>
+
+            <div class="pledges">
+                <span class="pledge district">District 10</span>
+                <span class="pledge pledgeBar" id="bar10">|</span>
+                <span class="pledge dist" id="dist10" /></span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        © 2015 Generic Text
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
